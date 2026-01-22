@@ -73,3 +73,55 @@ hr {
     border-color: #9a66b8;
     margin-top: 10px;
 }
+
+
+#hero-section {
+    text-align: center;
+    padding: 60px 20px 40px;
+    background: url('./assets/hero-bg.png') no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero-section .new-badge {
+    position: absolute;
+    top: 20px;
+    right: 25%;
+    background-color: #22c55e;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+#hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#hero-section p {
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+#hero-section .hero-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+#hero-section .hero-buttons .spotify {
+    background-color: #22c55e;
+    color: #000;
+}
+
+#hero-section .hero-buttons .mail {
+    border: 2px solid #22c55e;
+    background: transparent;
+    color: #22c55e;
+}
+
+#hero-section .hero-buttons button:hover {
+    transform: scale(1.05);
+}
