@@ -160,3 +160,45 @@ hr {
     font-size: 2.5em;
     color: #22c55e;
 }
+
+
+#why-choose {
+    background-color: #260c47;
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#why-choose h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#why-choose .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media(min-width:768px){
+    #why-choose .grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+#why-choose .card {
+    background-color: #1f053d;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#why-choose .card h3 {
+    margin: 15px 0;
+}
+
+#why-choose .card p {
+    opacity: 0.6;
+    font-size: 0.95em;
+}
